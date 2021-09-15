@@ -1,0 +1,92 @@
+.quiz-container
+{
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions-mark-row
+{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buttons-row
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.question-body
+{
+    width: 100%;
+    justify-content: center;
+}
+
+.question-mark-circle
+{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    align-self: center;
+    margin: 12px;
+    border-radius:  50%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-family: "Poppins";
+    color: black;
+    align-self: center;
+}
+
+.questions-information
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question-mark-current
+{
+    border-color: #1f4105;
+    background-color: #3f51b5;
+    color: white;
+}
+
+.question-mark-right
+{
+    border-color: darkgreen;
+    background-color: green;
+    color: white;
+}
+
+.question-mark-wrong
+{
+    border-color: darkred;
+    background-color: red;
+    color: white;
+}
+
+@media (max-width: 900px) 
+{
+    .quiz-container
+    {
+        margin-right: 3%;
+        margin-left: 3%;
+        width: 94%;
+    }
+    
+}

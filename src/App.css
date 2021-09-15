@@ -1,0 +1,32 @@
+.App
+{
+  background-color: #D0E8F9;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.error-msg
+{
+  color: red;
+  padding: 8px;
+  text-align: center;
+}
+
+@media (max-width:900px) 
+{
+  .App
+  {
+    background-color: #D0E8F9;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+}

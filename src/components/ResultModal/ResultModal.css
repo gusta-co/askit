@@ -1,0 +1,99 @@
+.result-modal-container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000095;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.result-modal-container-options
+{
+    height: 80vh;
+    min-height: 20vh;
+    width: 50vw;
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.results-cards-display-container
+{
+    max-width:50vw;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    height: 500%;
+}
+
+.right-card
+{
+    background-color: #a0f0a080;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 8px;
+    align-self: center;   
+}
+
+.wrong-card
+{
+    background-color: #f1616880;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 8px;
+    align-self: center;
+}
+
+.card
+{
+    padding: 8px;
+}
+
+.card-row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right-option
+{
+    background-color: darkgreen;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.wrong-option
+{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+@media (max-width:900px) 
+{
+
+    .result-modal-container-options
+    {
+    width: 90vw;
+    }
+
+    .results-cards-display-container
+    {
+        max-width:90vw;
+    }    
+}
