@@ -1,16 +1,12 @@
 import axios from 'axios';
-
 import './App.css';
 import Sidebar from "./components/Sidebar/Sidebar";
 import GetUser from "./Pages/GetUser/Getuser";
 import Main from './Pages/Main/Main';
 import Quiz from './Pages/Quiz/Quiz';
 import Result from './Pages/Result/Result';
-
 import { useEffect, useState } from 'react';
-
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
 import { useHistory } from 'react-router';
 
 
